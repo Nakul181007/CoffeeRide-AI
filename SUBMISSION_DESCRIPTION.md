@@ -1,0 +1,7 @@
+# CoffeeRide AI — Gen AI APAC Submission Description
+
+CoffeeRide AI is a data-driven Generative AI expansion agent that transforms retail site selection for coffee shop chains expanding into new urban markets. Developed for the Gen AI APAC submission, CoffeeRide AI addresses the challenge of manually analyzing complex spatial mobility patterns by automating the location selection workflow using Google Gemini and Model Context Protocol (MCP).
+
+Designed to bridge natural-language business queries with enterprise big data, the system relies on an agentic workflow where Gemini formulates analytical SQL queries targeted at Google Cloud BigQuery public mobility datasets (`bigquery-public-data.new_york.citibike_trips` and `bigquery-public-data.new_york.citibike_stations`). The architecture aggregates millions of bicycle trip origins, destination docking nodes, and peak commuter windows to calculate a decision-support Cyclist Opportunity Score.
+
+Gemini then synthesizes these analytical signals into a clear, ranked location recommendation—identifying high-potential corridors such as Downtown Brooklyn (Score: 91/100) alongside strategic commercial justifications. While the current prototype displays representative mobility results because local MCP authentication is not enabled, the underlying architecture demonstrates how combining Gemini, BigQuery, MCP, and public datasets empowers real-world business decision-making and location intelligence for cyclist-friendly coffee expansion.
